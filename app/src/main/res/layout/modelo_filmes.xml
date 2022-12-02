@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="200dp"
     android:background="#99C9EF"
@@ -11,10 +11,44 @@
         android:layout_width="150dp"
         android:layout_height="180dp"
         android:background="#000"
+        android:src="@drawable/avatar"
         android:scaleType="centerCrop"
         android:layout_margin="10dp"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/idTituloFilme"
+            android:layout_gravity="center_horizontal"
+            android:text="Avatar"
+            android:textColor="#0B263C"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/idDescFilme"
+            android:layout_marginTop="15dp"
+            android:padding="5sp"
+            android:textSize="11sp"
+            android:textStyle="bold"
+
+            />
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </LinearLayout>
 </LinearLayout>
